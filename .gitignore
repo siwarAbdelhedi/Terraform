@@ -1,0 +1,40 @@
+# Node.js related
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Environment files
+.env
+.env.*
+
+# Terraform specific
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+terraform.tfstate.backup
+*.tfvars
+
+# Ignore large Terraform providers
+.terraform/providers/
+
+# Ignore IDE and editor settings
+.vscode/
+.idea/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Git Large File Storage
+.gitattributes
+
+# Ignore other sensitive or unnecessary files
+*.bak
+*.tmp
